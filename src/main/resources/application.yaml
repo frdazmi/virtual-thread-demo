@@ -1,3 +1,7 @@
 spring:
   application:
     name: virtual-thread-demo
+  task:
+    execution:
+      pool:
+        traditional-pool-size: 10
